@@ -141,14 +141,15 @@ span.navbar-text {
       transform: scale(1);
 }
 .social-icon a img {
-      width: 40%;
+      width: 55%;
       z-index: 1;
+      background-color: none;
       transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
       filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
-.navbar-text button {
+.navbar-text button a {
     font-weight: 700;
     color: #fff;
     border: 1px solid #fff;
@@ -167,14 +168,14 @@ span.navbar-text {
     width: 0%;
     height: 100%;
     position: absolute;
-    background-color: #fff;
+    background: linear-gradient(90.21deg, rgba(66, 54, 170, 0.5) -5.91%, rgba(47, 189, 158, 0.5) 111.58%);
     left: 0;
     top: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-    color: #121212;
+    color: #157f92;
 }
 .navbar-text button:hover::before {
       content: "";
