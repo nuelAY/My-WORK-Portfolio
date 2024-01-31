@@ -50,8 +50,7 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi I'm Owolabi Emmanuel Boluwatife`} <span className="wrap">{text}</span></h1>
-                <p> About Me</p>
-                <a href="https://www.nuelay99@gmail.com"><button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button></a>
+                <a href="https://wa.me/2347066082574?text=[Hi, I want to connect]"><button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button></a>
                 </Col>   
 
                 <Col xs={12} md={6} xl={5}>

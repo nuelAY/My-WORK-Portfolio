@@ -63,11 +63,12 @@ const Project = () => {
             <Row>
                 <Col>
                 <h2>Projects</h2>
-                <p>About Projects</p>
                 <Tab.Container id="projects-tab" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center" id="pills-tab">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Projects </Nav.Link>
+                            <h2>
+                                <Nav.Link eventKey="first">My Projects </Nav.Link>
+                            </h2>
                         </Nav.Item>
                     </Nav>
                 

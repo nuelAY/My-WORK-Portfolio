@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../Assets/img/logo.svg';
+//import logo from '../Assets/img/logo.svg';
 import navIcon1 from '../Assets/img/nav-icon1.svg'
 import navIcon2 from '../Assets/img/nav-icon2.svg';
 import navIcon3 from '../Assets/img/nav-icon3.svg';
 import navIcon4 from '../Assets/img/nav-icon4.svg';
-import navIcon5 from '../Assets/img/nav-icon5.svg';
+//import navIcon5 from '../Assets/img/nav-icon5.svg';
 import navIcon6 from '../Assets/img/nav-icon6.svg';
+//import menu from "../Assets/img/menu].svg"
 
 const NavBar = () => {
 
@@ -41,7 +42,9 @@ const NavBar = () => {
         <Container className='container'>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav"> 
-                <span className="navbar-toogler-icon" ></span>
+                  <span className="navbar-toggler-icon" >
+                    
+                </span>
             </Navbar.Toggle>
 
             <Navbar.Collapse id="basic-navbar-nav">
@@ -58,9 +61,9 @@ const NavBar = () => {
                         <a href='https://twitter.com/amnuel_i'target='#'> <img src={navIcon2} alt='Logo' /></a>
                         <a href='https://www.instagram.com/i_amnuel/' target='#'> <img src={navIcon3} alt='Logo' /></a>
                         <a href='https://github.com/nuelAY' target='#'> <img src={navIcon4} alt='Logo' /></a>
-                        <a href='https://www.nuelay99@gmail.com' target='#'> <img src={navIcon6} alt='Logo' /></a>
+                        <a href='mailto:nuelay99@gmail.com' target='#'> <img src={navIcon6} alt='Logo' /></a>
                     </div>
-                    <button className='vvd' onClick={() => console.log('connect')}> <span className='vvd-span'>Let's Connect</span></button>
+                    <button className='vvd' onClick={() => console.log('connect')}> <span className='vvd-span'> <a href='https://wa.me/2347066082574?text=[Hi, I want to connect]'>Let's Connect</a></span></button>
                 </span>
             </Navbar.Collapse>
         </Container>

@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href='https://twitter.com/amnuel_i'target='#'> <img src={navIcon2} alt='Logo' /></a>
                         <a href='https://www.instagram.com/i_amnuel/' target='#'> <img src={navIcon3} alt='Logo' /></a>
                         <a href='https://github.com/nuelAY' target='#'> <img src={navIcon4} alt='Logo' /></a>
-                        <a href='https://www.nuelay99@gmail.com' target='#'> <img src={navIcon6} alt='Logo' /></a>
+                        <a href='mailto:nuelay99@gmail.com' target='#'> <img src={navIcon6} alt='Logo' /></a>
                     </div>
                     <p>CopyRight &copy;2024. All Right Reserved Manuel.</p>
                 </Col>
