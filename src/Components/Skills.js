@@ -9,6 +9,7 @@ import meter5 from "../Assets/img/meter5.svg";
 import meter6 from "../Assets/img/meter6.svg";
 import meter7 from "../Assets/img/meter7.svg";
 import meter8 from "../Assets/img/meter8.svg";
+import meter9 from "../Assets/img/meter9.png";
 import colorSharp from "../Assets/img/color-sharp.png";
 
 const Skills = () => {
@@ -74,6 +75,10 @@ const Skills = () => {
                             <div className="item">
                                 <img src={meter7} alt="Image"/>
                                 <h5>Firebase</h5>
+                                </div>
+                                 <div className="item">
+                                <img src={meter9} alt="Image"/>
+                                <h5>Express Js</h5>
                             </div>
                         </Carousel>
                     </div>
